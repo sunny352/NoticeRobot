@@ -1,0 +1,39 @@
+{
+	"url": "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxx",
+	"infoList": [
+		{
+			"cron": "0 0 11,15,17 * * 1-5",
+			"msgtype": "text",
+			"text": {
+				"content": "今天你喝水了吗？",
+				"mentioned_list": [
+					"@all"
+				]
+			}
+		},
+		{
+			"cron": "0 0 11,15,17 * * 1-5",
+			"msgtype": "markdown",
+			"markdown": {
+				"path": "./res/drink.md"
+			}
+		},
+		{
+			"cron": "0 0 10,12,14,16,18 * * 1-5",
+			"msgtype": "text",
+			"text": {
+				"content": "今天你提肛了吗？",
+				"mentioned_list": [
+					"@all"
+				]
+			}
+		},
+		{
+			"cron": "0 0 10,12,14,16,18 * * 1-5",
+			"msgtype": "image",
+			"image": {
+				"path": "./res/ti.png"
+			}
+		}
+	]
+}

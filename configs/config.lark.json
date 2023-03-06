@@ -1,0 +1,23 @@
+{
+	"url": "https://open.feishu.cn/open-apis/bot/v2/hook/xxxxx",
+	"infoList": [
+		{
+			"cron": "0 0 11,15,17 * * 1-5",
+			"info": {
+				"msg_type": "text",
+				"content": {
+					"text": "<at user_id=\"all\">所有人</at> 今天你喝水了吗？"
+				}
+			}
+		},
+		{
+			"cron": "0 0 10,12,14,16,18 * * 1-5",
+			"info": {
+				"msg_type": "text",
+				"content": {
+					"text": "<at user_id=\"all\">所有人</at> 今天你提肛了吗？"
+				}
+			}
+		}
+	]
+}
